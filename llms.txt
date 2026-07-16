@@ -13,7 +13,7 @@
 ## Offers
 
 - Free automated audit: one public GitHub repository, deterministic score, evidence links, limitations, warnings, and next steps.
-- $149 Agent-Ready Repo Fix Plan: exactly three public fix cards after a completed free audit and written scope confirmation; no implementation.
+- $149 Agent-Ready Repo Fix Plan: automated preflight and exactly three public fix cards after a completed free audit and written scope confirmation; no implementation. Use the dedicated goods/services checkout only after confirmation.
 - $750 human-reviewed repository audit: one public repository, evidence-linked Markdown and JSON, up to five priorities, and a 30-minute handoff.
 - $1,500 Repository Remediation Sprint: buyer-specific written scope for one to three agreed gaps in a buyer-authorized public pull request.
 
@@ -28,4 +28,5 @@
 
 - [Run the free audit](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=audit-request.yml)
 - [Request the $149 Fix Plan](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=fix-plan-request.yml)
+- [Pay for a confirmed $149 Fix Plan](https://www.paypal.com/ncp/payment/H9VVRGRGA3DCG) — use only after WrightOps posts written scope confirmation.
 - Business email: zach@zachwright.xyz
