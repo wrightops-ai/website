@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://wrightops-ai.github.io/website/sitemap.xml

@@ -714,6 +714,22 @@ a {
   content: "";
 }
 
+.proof-link {
+  display: inline-flex;
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  color: var(--ink);
+  border-bottom: 1px solid var(--signal-deep);
+  font-size: 0.84rem;
+  font-weight: 780;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.proof-link:hover {
+  color: #527f08;
+  border-color: currentColor;
+}
+
 .final-cta {
   position: relative;
   overflow: hidden;
@@ -900,9 +916,20 @@ a {
     text-align: right;
   }
 
-  .site-footer > p:last-child {
+.site-footer > p:last-child {
     grid-column: 1 / -1;
   }
+}
+
+.site-footer a {
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.32);
+  text-underline-offset: 0.2em;
+}
+
+.site-footer a:hover {
+  text-decoration-color: var(--signal);
 }
 
 @media (max-width: 46rem) {
