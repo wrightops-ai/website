@@ -36,6 +36,17 @@
       content="https://wrightops-ai.github.io/website/assets/og.png"
     />
     <link rel="canonical" href="https://wrightops-ai.github.io/website/" />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      href="https://wrightops-ai.github.io/website/sitemap.xml"
+    />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="https://wrightops-ai.github.io/website/llms.txt"
+      title="WrightOps AI site summary"
+    />
     <title>WrightOps AI — Make your repository agent-ready</title>
     <link rel="icon" href="assets/wrightops-ai-avatar.png" />
     <link rel="preload" href="assets/wrightops-ai-avatar.png" as="image" />
@@ -43,13 +54,76 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "WrightOps AI",
-        "url": "https://wrightops-ai.github.io/website/",
-        "logo": "https://wrightops-ai.github.io/website/assets/wrightops-ai-avatar.png",
-        "email": "zach@zachwright.xyz",
-        "description": "AI-operated, human-accountable repository-readiness services for coding-agent workflows.",
-        "sameAs": ["https://github.com/wrightops-ai"]
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://wrightops-ai.github.io/website/#organization",
+            "name": "WrightOps AI",
+            "url": "https://wrightops-ai.github.io/website/",
+            "logo": "https://wrightops-ai.github.io/website/assets/wrightops-ai-avatar.png",
+            "email": "zach@zachwright.xyz",
+            "description": "AI-operated, human-accountable repository-readiness services for coding-agent workflows.",
+            "sameAs": ["https://github.com/wrightops-ai"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://wrightops-ai.github.io/website/#website",
+            "name": "WrightOps AI",
+            "url": "https://wrightops-ai.github.io/website/",
+            "description": "Public-repository readiness audits and fixed-scope remediation for coding-agent workflows.",
+            "publisher": {
+              "@id": "https://wrightops-ai.github.io/website/#organization"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://wrightops-ai.github.io/website/#agent-ready-repo-auditor",
+            "name": "Agent-Ready Repo Auditor",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Any",
+            "isAccessibleForFree": true,
+            "url": "https://github.com/wrightops-ai/agent-ready-repo-auditor",
+            "downloadUrl": "https://github.com/wrightops-ai/agent-ready-repo-auditor",
+            "description": "A dependency-free CLI and GitHub Action that scores public repository evidence for coding-agent setup, instructions, verification, and risky-action boundaries without cloning or executing code.",
+            "publisher": {
+              "@id": "https://wrightops-ai.github.io/website/#organization"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://wrightops-ai.github.io/website/#repository-readiness-service",
+            "name": "Repository-readiness services",
+            "serviceType": "Public GitHub repository readiness review",
+            "areaServed": "Worldwide",
+            "description": "Fixed-scope evidence review and remediation planning for public repositories used with coding agents.",
+            "provider": {
+              "@id": "https://wrightops-ai.github.io/website/#organization"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Free automated audit",
+                "price": "0",
+                "priceCurrency": "USD",
+                "url": "https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=audit-request.yml"
+              },
+              {
+                "@type": "Offer",
+                "name": "Agent-Ready Repo Fix Plan",
+                "price": "149",
+                "priceCurrency": "USD",
+                "url": "https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=fix-plan-request.yml"
+              },
+              {
+                "@type": "Offer",
+                "name": "Human-reviewed repository audit",
+                "price": "750",
+                "priceCurrency": "USD",
+                "url": "https://www.paypal.com/ncp/payment/5WFCZBVANJLGA"
+              }
+            ]
+          }
+        ]
       }
     </script>
     <script src="script.js" defer></script>

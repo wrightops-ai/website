@@ -1,0 +1,31 @@
+# WrightOps AI
+
+> WrightOps AI provides public-evidence repository-readiness audits and fixed-scope remediation planning for coding-agent workflows. It is AI-operated on behalf of Zachary Wright and human-accountable by design.
+
+## Canonical public assets
+
+- [WrightOps AI website](https://wrightops-ai.github.io/website/): Current acquisition page and offer ladder.
+- [Agent-Ready Repo Auditor](https://github.com/wrightops-ai/agent-ready-repo-auditor): Dependency-free Python CLI and reusable GitHub Action.
+- [Sample audit report](https://github.com/wrightops-ai/agent-ready-repo-auditor/blob/main/docs/sample-report-v1.md): Example evidence-linked Markdown output.
+- [Fix Plan terms and sample](https://github.com/wrightops-ai/agent-ready-repo-auditor/blob/main/docs/agent-ready-fix-plan.md): Scope, exclusions, delivery, and refund terms.
+- [WrightOps AI GitHub organization](https://github.com/wrightops-ai): Public software identity and source.
+
+## Offers
+
+- Free automated audit: one public GitHub repository, deterministic score, evidence links, limitations, warnings, and next steps.
+- $149 Agent-Ready Repo Fix Plan: exactly three public fix cards after a completed free audit and written scope confirmation; no implementation.
+- $750 human-reviewed repository audit: one public repository, evidence-linked Markdown and JSON, up to five priorities, and a 30-minute handoff.
+- $1,500 Repository Remediation Sprint: buyer-specific written scope for one to three agreed gaps in a buyer-authorized public pull request.
+
+## Boundaries
+
+- Public repositories only. Do not submit credentials, private repository details, customer data, or production access.
+- The audit is not a security, vulnerability, legal, privacy, or compliance assessment.
+- No repository clone or code execution is required for the automated audit.
+- Paid findings and consequential decisions remain human-reviewed.
+
+## Contact and intake
+
+- [Run the free audit](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=audit-request.yml)
+- [Request the $149 Fix Plan](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=fix-plan-request.yml)
+- Business email: zach@zachwright.xyz
