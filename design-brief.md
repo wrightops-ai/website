@@ -8,9 +8,9 @@ A midnight operational field cut by one signal-lime workflow path: precise, calm
 
 1. **Hero:** One explicit promise for public-repository agent readiness, a free audit CTA, a sample report, and the AI-operation disclosure.
 2. **Support:** A four-step readiness loop tied to immutable public evidence.
-3. **Offers:** One coherent ladder: free automated audit, $149 Fix Plan, $750 human-reviewed audit, and buyer-scoped $1,500 remediation sprint.
+3. **Offers:** One coherent ladder: free automated audit, $149 Fix Plan, $750 human-reviewed audit with concrete deliverables and a requester-authority qualifier, and buyer-scoped $1,500 remediation sprint.
 4. **Evidence:** Source, report, and commercial boundaries with direct proof links.
-5. **Final CTA:** Start free or submit a completed audit for the bounded $149 Fix Plan; keep the verified $750 PayPal Business checkout visible in the offer ladder.
+5. **Final CTA:** Start free or submit a completed audit for the bounded $149 Fix Plan; route the $750 audit through written scope confirmation before any buyer-specific PayPal Business checkout is shared.
 
 ## Interaction thesis
 
