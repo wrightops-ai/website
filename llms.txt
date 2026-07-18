@@ -14,7 +14,7 @@
 
 - Free no-login preflight: seven browser-based checks for one public GitHub repository, pinned to an immutable revision with evidence links, limitations, warnings, and next steps.
 - $149 Agent-Ready Repo Fix Plan: automated preflight and exactly three public fix cards after a completed free audit and written scope confirmation; no implementation. Use the dedicated goods/services checkout only after confirmation.
-- $750 human-reviewed repository audit: one public repository, evidence-linked Markdown and JSON, up to five priorities, and a 30-minute handoff within three days after settlement and complete public inputs. WrightOps confirms the exact scope in writing before sharing a buyer-specific PayPal Goods & Services checkout.
+- $750 human-reviewed repository audit: one public repository, evidence-linked Markdown and JSON, up to five priorities, and a 30-minute handoff within three days after settlement and complete public inputs. WrightOps posts the exact scope in the public request before sharing a buyer-specific PayPal Goods & Services checkout.
 - $1,500 Repository Remediation Sprint: buyer-specific written scope for one to three agreed gaps in a buyer-authorized public pull request.
 
 ## Boundaries
@@ -29,5 +29,6 @@
 - [Run the free no-login preflight](https://zachwright.xyz/#preflight)
 - [Request the $149 Fix Plan](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=fix-plan-request.yml)
 - [Pay for a confirmed $149 Fix Plan](https://www.paypal.com/ncp/payment/H9VVRGRGA3DCG) — use only after WrightOps posts written scope confirmation.
-- [Request scope for the $750 human-reviewed audit](mailto:zach@zachwright.xyz?subject=Agent-Ready%20Repository%20Audit%20scope) — include the public repository URL and requester authority; do not send credentials, private repository details, customer data, or payment details.
+- [Request public scope for the $750 human-reviewed audit](https://github.com/wrightops-ai/agent-ready-repo-auditor/issues/new?template=human-audit-scope-request.yml) — include the public repository URL and requester authority; do not post credentials, private repository details, customer data, or payment details.
+- [Read the complete $750 audit terms](https://github.com/wrightops-ai/agent-ready-repo-auditor/blob/main/docs/agent-ready-repository-audit.md)
 - Business email: zach@zachwright.xyz
